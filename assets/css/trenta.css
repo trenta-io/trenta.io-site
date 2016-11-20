@@ -60,3 +60,9 @@
 		margin: 20px 10px 0 0;
 	}
 }
+
+@media (max-width: 1280px) {
+	.trentahead {
+		position: relative;
+	}
+}
