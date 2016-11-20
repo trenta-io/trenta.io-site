@@ -10,6 +10,7 @@
     padding: 0;
     position: fixed;
     z-index: 1000;
+	line-spacing: 0px;
 }
 
 .logohead {
