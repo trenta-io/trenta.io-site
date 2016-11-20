@@ -55,13 +55,8 @@
     color: #A7A7A7;
 }
 
-@media screen and (min-width: 1680px) {
-	.righthead {
-		margin: 20px 10px 0 0;
-	}
-}
 
-@media (max-width: 1280px) {
+@media (max-width: 1366px) {
 	.trentahead {
 		position: relative;
 	}
