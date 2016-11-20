@@ -16,12 +16,6 @@
     height: 35px;
     margin: 16px 0 0 20px;
     display: block;
-}
-
-.logohead {
-    height: 35px;
-    margin: 16px 0 0 20px;
-    display: block;
 	-o-transition: .2s;
     -ms-transition: .2s;
     -moz-transition: .2s;
@@ -31,6 +25,12 @@
 
 .logohead:hover {
 	opacity: 0.8;
+}
+
+.righthead {
+	float: right;
+    margin: 25px 10px 0 0;
+	font-size: 18px;
 }
 
 .rightheadlink {
