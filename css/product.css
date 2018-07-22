@@ -26,33 +26,24 @@
 
 .product-device {
   position: absolute;
-  right: 10%;
   bottom: -30%;
-  width: 300px;
-  height: 540px;
-  background-color: #333;
-  border-radius: 21px;
 	z-index: -20;
 }
 
 .product-device::before {
   position: absolute;
   top: 10%;
-  right: 10px;
   bottom: 10%;
-  left: 10px;
+  left: -100%;
   content: "";
-  background-color: rgba(255, 255, 255, .1);
-  border-radius: 5px;
+
 }
 
 .product-device-2 {
 	top: 5%;
-	left: 0%;
-  right: auto;
+	float: left;
   bottom: 0;
   left: 5%;
-  background-color: #e5e5e5;
 }
 
 
@@ -82,7 +73,7 @@
 
 /* KevDoy Code */
 .bg-hero {
-	background: url(../img/bg-hero.jpg);
+	background: url(../img/bg-hero2.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	z-index: -200;
