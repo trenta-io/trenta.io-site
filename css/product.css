@@ -81,3 +81,16 @@
 	background-repeat: no-repeat;
 	z-index: -200;
 }
+
+.product-icon .icon-contract {
+  display: none;
+}
+
+.product-icon:hover .icon-expand,
+.product-icon:active .icon-expand{
+  display: none;
+}
+.product-icon:hover .icon-contract,
+.product-icon:active .icon-contract{
+  display: inline-block;
+}
