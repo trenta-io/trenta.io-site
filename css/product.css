@@ -5,10 +5,6 @@
 /*
  * Custom translucent site header
  */
-
-
-
-
 .site-header {
   background-color: rgba(0, 0, 0, .85);
   -webkit-backdrop-filter: saturate(180%) blur(20px);
@@ -26,7 +22,6 @@
 /*
  * Dummy devices (replace them with your own or something else entirely!)
  */
-
 .product-device {
   position: absolute;
   bottom: -30%;
@@ -53,7 +48,6 @@
 /*
  * Extra utilities
  */
-
 .border-top { border-top: 1px solid #e5e5e5; }
 .border-bottom { border-bottom: 1px solid #e5e5e5; }
 
@@ -83,7 +77,7 @@
 }
 
 .product-icon .icon-contract {
-  display: none;
+  display: none
 }
 
 .product-icon:hover .icon-expand,
