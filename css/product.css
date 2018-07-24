@@ -92,3 +92,17 @@
 .product-icon:active .icon-contract{
   display: inline-block;
 }
+
+.maincontainer {
+	max-width: 2560px;
+}
+
+#trentaos {
+	background: url(../img/os-bg.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.os-computer {
+	bottom: 0%;
+	right: 3%;
+}
