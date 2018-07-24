@@ -101,8 +101,10 @@
 	background: url(../img/os-bg.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
+	background-attachment:fixed;
 }
 .os-computer {
-	bottom: 0%;
-	right: 3%;
+	position: relative;
+	bottom: -10%;
+	width: 100%;
 }
