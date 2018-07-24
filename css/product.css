@@ -76,8 +76,12 @@
 	z-index: -200;
 }
 
+.product-icon, .product-icon:hover {
+	text-decoration: none;
+	color: #000;
+}
 .product-icon .icon-contract {
-  display: none
+	 display: none;
 }
 
 .product-icon:hover .icon-expand,
