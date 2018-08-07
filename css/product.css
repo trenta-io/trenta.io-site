@@ -6,17 +6,17 @@
  * Custom translucent site header
  */
 .site-header {
-  background-color: rgba(255, 255, 255, .95);
+  background-color: rgba(0, 0, 0, .75);
   -webkit-backdrop-filter: saturate(180%) blur(20px);
   backdrop-filter: saturate(180%) blur(20px);
 }
 .site-header a {
-  color: #000;
+  color: #fff;
   transition: ease-in-out color .15s;
 }
 .site-header a:hover {
-  color: #999;
-  text-decoration: none;
+	opacity: 0.85;
+	text-decoration: none;
 }
 
 /*
