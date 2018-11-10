@@ -1,116 +1,33 @@
-.container {
-  max-width: 960px;
+nav{
+	background: rgba(0,0,0,0.30);
+	color: white;
+	position: absolute;
+	margin-top: -50px;
+}
+nav a {
+	color: white;
+}
+.hero {
+	text-align: center;
+	color: #fff;
+}
+.hero h1 {
+	margin-top: 40vh;
 }
 
-/*
- * Custom translucent site header
- */
-.site-header {
-  background-color: rgba(0, 0, 0, .75);
-  -webkit-backdrop-filter: saturate(180%) blur(20px);
-  backdrop-filter: saturate(180%) blur(20px);
-}
-.site-header a {
-  color: #fff;
-  transition: ease-in-out color .15s;
-}
-.site-header a:hover {
-	opacity: 0.85;
-	text-decoration: none;
-}
-
-/*
- * Dummy devices (replace them with your own or something else entirely!)
- */
-.product-device {
-  position: absolute;
-  bottom: -30%;
-	z-index: -20;
-}
-
-.product-device::before {
-  position: absolute;
-  top: 10%;
-  bottom: 10%;
-  left: -100%;
-  content: "";
-
-}
-
-.product-device-2 {
-	top: 5%;
-	float: left;
-  bottom: 0;
-  left: 5%;
-}
-
-
-/*
- * Extra utilities
- */
-.border-top { border-top: 1px solid #e5e5e5; }
-.border-bottom { border-bottom: 1px solid #e5e5e5; }
-
-.box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
-
-.flex-equal > * {
-  -ms-flex: 1;
-  -webkit-box-flex: 1;
-  flex: 1;
-}
-@media (min-width: 768px) {
-  .flex-md-equal > * {
-    -ms-flex: 1;
-    -webkit-box-flex: 1;
-    flex: 1;
-  }
-}
-
-.overflow-hidden { overflow: hidden; }
-
-/* KevDoy Code */
-.bg-hero {
-	background: url(../img/bg-hero2.jpg);
+.hero {
+	background: url(../img/background-rainier-half.jpg);
 	background-size: cover;
-	background-repeat: no-repeat;
-	z-index: -200;
-}
-
-.product-icon, .product-icon:hover {
-	text-decoration: none;
-	color: #999;
-}
-.product-icon:hover {
-	color: #000;
-	  transition: ease-in-out color .15s;
-
-}
-.product-icon .icon-contract {
-	 display: none;
-}
-
-.product-icon:hover .icon-expand,
-.product-icon:active .icon-expand{
-  display: none;
-}
-.product-icon:hover .icon-contract,
-.product-icon:active .icon-contract{
-  display: inline-block;
-}
-
-.maincontainer {
-	max-width: 2560px;
-}
-
-#trentaos {
-	background: url(../img/os-bg-blur.jpg);
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-attachment:fixed;
 	background-position: center;
+	background-repeat: no-repeat;
+	height: 100vh; 
+	 animation: breath 20s linear infinite;
+	background-attachment: fixed;
 }
-.os-computer {
-	position: relative;
-	bottom: -10%;
-	width: 100%;
+
+
+@keyframes breath {
+  0%   { background-size: 140% 140%; }
+  50% { background-size: 100% 100%; }
+  100% { background-size: 140% 140%; }
 }
