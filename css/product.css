@@ -21,8 +21,14 @@ nav a {
 	background-position: center;
 	background-repeat: no-repeat;
 	height: 100vh; 
-	 animation: breath 20s linear infinite;
+	 animation: breath 40s linear infinite;
 	background-attachment: fixed;
+}
+@media (max-width: 900px){
+	.hero {
+		animation: none;
+		background-size: cover;
+	}
 }
 
 
