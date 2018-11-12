@@ -24,7 +24,7 @@ nav a:hover {
 .hero {
 	text-align: center;
 	color: #fff;
-	height: 100vh; 
+	height: 95vh; 
 	animation: breath 40s linear infinite;
 	background-attachment: fixed;
 }
