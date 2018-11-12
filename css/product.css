@@ -1,3 +1,5 @@
+/******START GLOBAL******/
+
 /*Navigation*/
 nav{
 	background: rgba(0,0,0,0.30);
@@ -16,6 +18,9 @@ nav a:hover {
 .section {
 	padding: 30px;
 }
+/****** END GLOBAL******/
+
+/******START HOME******/
 /*Hero*/
 .hero h1 {
 	margin-top: 40vh;
@@ -57,3 +62,4 @@ nav a:hover {
 	color: #000;
 	text-decoration: none;
 }
+/******END HOME******/
