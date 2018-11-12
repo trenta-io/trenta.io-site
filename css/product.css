@@ -1,0 +1,59 @@
+/*Navigation*/
+nav{
+	background: rgba(0,0,0,0.30);
+	color: white;
+	position: absolute;
+	margin-top: -50px;
+}
+nav a, nav a:hover {
+	color: white;
+	text-decoration: none;
+}
+nav a:hover {
+	opacity: 0.8;
+}
+/*Structure*/
+.section {
+	padding: 30px;
+}
+/*Hero*/
+.hero h1 {
+	margin-top: 40vh;
+}
+
+.hero {
+	text-align: center;
+	color: #fff;
+	height: 100vh; 
+	animation: breath 40s linear infinite;
+	background-attachment: fixed;
+}
+#myVideo {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+	z-index: -100;
+}
+@media (min-width: 992px) {
+	.hero h1 {
+		font-size: 4em;
+	}
+}
+/*os-preview*/
+.screenshot {
+	margin: 15px 0;
+	/* box-shadow: 0 3px 10px 1px rgba(0,0,0,0.3); */
+}
+/*Blogs*/
+.blogpost h5 {
+	margin: 10px 0 0 0;
+}
+.blogpost p {
+	margin: 0 0 30px 0;
+}
+.blogpost a, .blogpost a:hover {
+	color: #000;
+	text-decoration: none;
+}
