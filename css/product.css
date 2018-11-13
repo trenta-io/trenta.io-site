@@ -38,8 +38,8 @@ nav a:hover {
     right: 0;
     bottom: 0;
     min-width: 100%; 
-    min-height: 100%;
-	z-index: -100;
+    min-height: 100vh;
+	 z-index: -100;
 }
 @media (min-width: 992px) {
 	.hero h1 {
@@ -63,3 +63,13 @@ nav a:hover {
 	text-decoration: none;
 }
 /******END HOME******/
+
+/*OS Hero*/
+@media (max-width: 992px) {
+	.os-hero {
+	background: url(../img/os-laptop.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+}
