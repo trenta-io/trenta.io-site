@@ -6,7 +6,6 @@ nav{
 	color: #fff;
 	position: absolute;
 	margin-top: -50px;
-	text-align: center;
 }
 nav a, nav a:hover {
 	color: white !important;
@@ -35,7 +34,7 @@ nav a:hover {
 .hero {
 	text-align: center;
 	color: #fff;
-	height: 95vh; 
+	height: 100vh; 
 	animation: breath 40s linear infinite;
 	background-attachment: fixed;
 }
