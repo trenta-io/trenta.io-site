@@ -3,16 +3,21 @@
 /*Navigation*/
 nav{
 	background: rgba(0,0,0,0.30);
-	color: white;
+	color: #fff;
 	position: absolute;
 	margin-top: -50px;
 }
 nav a, nav a:hover {
-	color: white;
+	color: white !important;
 	text-decoration: none;
 }
 nav a:hover {
 	opacity: 0.8;
+}
+@media (max-width: 991px) {
+	nav {
+		background: rgba(0,0,0,1);
+	}
 }
 /*Structure*/
 .section {
@@ -65,7 +70,7 @@ nav a:hover {
 /******END HOME******/
 
 /*OS Hero*/
-@media (max-width: 992px) {
+@media (max-width: 991px) {
 	.os-hero {
 	background: url(../img/os-laptop.jpg);
 	background-size: cover;
