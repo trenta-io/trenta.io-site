@@ -38,11 +38,7 @@ nav a:hover {
 .hero h1 {
 	margin-top: 25vh;
 }
-@media (min-width: 992px) {
-	.hero h1 {
-		font-size: 4em;
-	}
-}
+
 #start{
 	background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
 	background-size: 400% 400%;
