@@ -36,7 +36,7 @@ nav a:hover {
 	background-attachment: fixed;
 }
 .hero h1 {
-	margin-top: 20vh;
+	margin-top: 25vh;
 }
 @media (min-width: 992px) {
 	.hero h1 {
