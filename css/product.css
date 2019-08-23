@@ -97,6 +97,19 @@ nav a:hover {
 	color: #000;
 	text-decoration: none;
 }
+.trentaicons img {
+	width: 10%;
+}
+.trentawallpapers img {
+	width: 15%;
+}
+
+.navbar-dark .navbar-toggler-icon {
+	background-image: url("../img/nav.svg");
+}
+.navbar-dark .navbar-toggler {
+	border-color: rgba(0,0,0,0)
+}
 /******END HOME******/
 
 /******START OS******/
