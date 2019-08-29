@@ -2,10 +2,12 @@
 
 /*Navigation*/
 nav{
-	background: rgba(0,0,0,0.30);
+	background: rgba(0,0,0,0.5);
 	color: #fff;
 	position: absolute;
 	margin-top: -50px;
+	-webkit-backdrop-filter: saturate(180%) blur(20px);
+    backdrop-filter: saturate(180%) blur(20px);
 }
 nav a, nav a:hover {
 	color: white !important;
