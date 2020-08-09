@@ -197,3 +197,17 @@ nav a:hover {
 	font-size: 12px;
 }
 /******END BRAND******/
+/******START WALLPAPERS******/
+/*Wallpapers Hero*/
+.hero-wallpapers {
+	background: #000;
+	background-image: url("../img/bg-hero-wallpapers.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 50vh;
+	background-position: center;
+}
+.hero-brand h1 {
+	margin-top: 20vh;
+}
+/******END BRAND******/
