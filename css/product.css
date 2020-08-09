@@ -22,9 +22,7 @@ nav a:hover {
 	}
 }
 /*Structure*/
-.section {
-	padding: 30px;
-}
+
 /****** END GLOBAL******/
 
 /******START HOME******/
@@ -111,6 +109,50 @@ nav a:hover {
 }
 .navbar-dark .navbar-toggler {
 	border-color: rgba(0,0,0,0)
+}
+.feature {
+	height: 500px;
+	text-align: center;
+}
+.feature h2 {
+	padding-top: 50px;
+	font-siz: 1.5em;
+}
+.feature p {
+	width: 75%;
+	margin: 0 auto;
+}
+#ft-icons {
+	background-color: #f1f1f3;
+	background-image: url("../img/ft-icons.png");
+	background-size: contain;
+	background-position: bottom;
+	background-repeat: no-repeat;
+	
+}
+#ft-wallpapers {
+	background-color: #f1f1f3;
+	background-image: url("../img/ft-wallpapers.png");
+	background-size: contain;
+	background-position: bottom;
+	background-repeat: no-repeat;
+	
+}
+#ft-news {
+	background-color: #f1f1f3;
+	background-image: url("../img/ft-news-aug2.png");
+	background-size: contain;
+	background-position: bottom;
+	background-repeat: no-repeat;
+}
+@media (max-width: 767px) {
+	#ft-news {
+	background-color: #f1f1f3;
+	background-image: url("../img/ft-news-aug-m.png");
+	background-size: contain;
+	background-position: bottom;
+	background-repeat: no-repeat;
+}
 }
 /******END HOME******/
 
