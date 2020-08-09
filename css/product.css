@@ -145,6 +145,11 @@ nav a:hover {
 	background-position: bottom;
 	background-repeat: no-repeat;
 }
+@media (max-width: 475px) {
+	.feature {
+		height: 415px;
+	}
+}
 @media (max-width: 767px) {
 	#ft-news {
 	background-color: #f1f1f3;
@@ -154,6 +159,7 @@ nav a:hover {
 	background-repeat: no-repeat;
 }
 }
+
 /******END HOME******/
 
 /******START OS******/
