@@ -24,6 +24,20 @@
   <!-- Custom styles for this template -->
   <link href="css/product.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
+	<link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+	<style>
+	/* default full-width cells */
+.carousel-cell {
+  width: 100%;
+  height: auto;
+  margin-right: 10px;
+}
+
+@media screen and ( min-width: 768px ) {
+  /* half-width cells for larger devices */
+  .carousel-cell { width: 50%; }
+}
+	</style>
 </head>
 
 <body>
@@ -57,8 +71,41 @@
 
 	</div>
 	<div class="container-fluid">
+		<div class="row mt-4">
+			<div class="col">
+				<h2>Featured Wallpapers</h2>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col">
+			<div class="carousel" data-flickity>
+  <div class="carousel-cell">
+					<a href="wallpapers/pinkmountain-by-jerry-zhang.jpg">
+				<img src="wallpapers/thumb/pinkmountain-by-jerry-zhang.jpg" class="img-fluid rounded" alt="Pink Mountain by Jerry Zhang">
+			</a>
+				</div>
+  <div class="carousel-cell">
+				<a href="wallpapers/zion1-by-daniel-olah.jpg">
+				<img src="wallpapers/thumb/zion1-by-daniel-olah.jpg" class="img-fluid rounded" alt="Zion One by Daniel Olah">
+			</a>
+				</div>
+  <div class="carousel-cell">
+				<a href="wallpapers/purple-by-david-becker.jpg">
+				<img src="wallpapers/thumb/purple-by-david-becker.jpg" class="img-fluid rounded" alt="Purple by David Becker">
+			</a>
+				</div>
+</div>
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid">
 	<div class="container">
-	<div class="row my-4">
+		<div class="row mt-4">
+			<div class="col">
+				<h3>August 2020</h3>
+			</div>
+		</div>
+	<div class="row mb-4">
 		<div class="col-4">
 			<a href="wallpapers/pinkmountain-by-jerry-zhang.jpg">
 				<img src="wallpapers/thumb/pinkmountain-by-jerry-zhang.jpg" class="img-fluid rounded" alt="Pink Mountain by Jerry Zhang">
@@ -175,6 +222,17 @@
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
     crossorigin="anonymous"></script>
   <script src="/js/bootstrap.min.js"></script>
+<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+	<script>
+		$('.carousel').flickity({
+	freeScroll: true,
+contain: true,
+// disable previous & next buttons and dots
+prevNextButtons: true,
+pageDots: false,
+wrapAround: true
+			});
+	</script>
   <script>
     Holder.addTheme('thumb', {
       bg: '#55595c',
