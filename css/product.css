@@ -173,6 +173,10 @@ nav a:hover {
 	height: 400px;
 	text-align: center;
 }
+	.feature-hero p {
+	max-width: 80%;
+	margin: 0 auto;
+}
 }
 
 /******END HOME******/
