@@ -110,6 +110,7 @@ nav a:hover {
 .navbar-dark .navbar-toggler {
 	border-color: rgba(0,0,0,0)
 }
+
 .feature {
 	height: 500px;
 	text-align: center;
@@ -121,6 +122,14 @@ nav a:hover {
 .feature p {
 	width: 75%;
 	margin: 0 auto;
+}
+.feature-hero {
+	height: 300px;
+	text-align: center;
+}
+.feature-hero h1 {
+	padding-top: 100px;
+	font-siz: 1.5em;
 }
 #ft-icons {
 	background-color: #f1f1f3;
@@ -149,6 +158,8 @@ nav a:hover {
 	.feature {
 		height: 415px;
 	}
+	
+
 }
 @media (max-width: 767px) {
 	#ft-news {
@@ -157,6 +168,10 @@ nav a:hover {
 	background-size: contain;
 	background-position: bottom;
 	background-repeat: no-repeat;
+}
+	.feature-hero {
+	height: 400px;
+	text-align: center;
 }
 }
 
