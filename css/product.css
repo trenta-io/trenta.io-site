@@ -16,11 +16,11 @@ nav a, nav a:hover {
 nav a:hover {
 	opacity: 0.8;
 }
-@media (max-width: 991px) {
+/*@media (max-width: 991px) {
 	nav {
 		background: rgba(0,0,0,1);
 	}
-}
+}*/
 /*Structure*/
 
 /****** END GLOBAL******/
