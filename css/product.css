@@ -36,7 +36,7 @@ nav a:hover {
 	background-attachment: fixed;
 }
 .hero h1 {
-	margin-top: 25vh;
+	margin-top: 200px;
 }
 
 #start{
@@ -201,7 +201,7 @@ nav a:hover {
 	background-image: url(../img/bg-hero-brand.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
-	height: 50vh
+	height: 500px
 }
 .hero-brand h1 {
 	margin-top: 20vh;
@@ -223,10 +223,22 @@ nav a:hover {
 	background-image: url("../img/bg-hero-wallpapers.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
-	height: 50vh;
+	height: 500px;
 	background-position: center;
 }
 .hero-brand h1 {
 	margin-top: 20vh;
 }
-/******END BRAND******/
+/******END WALLPAPERS******/
+/******START ICONS******/
+/*Icons Hero*/
+.hero-icons {
+	background: #000;
+	color: #fff;
+	background-image: url("../img/bg-hero-icons.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 500px;
+	background-position: center;
+}
+/******END ICONS******/
