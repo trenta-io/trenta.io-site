@@ -22,7 +22,17 @@ nav a:hover {
 	}
 }*/
 /*Structure*/
-
+@media (max-width: 767px) {
+	.display-3 {
+		font-size: 50px;
+	}
+	.display-4 {
+		font-size: 40px;
+	}
+}
+.rounded-trenta {
+	border-radius: 20px;
+}
 /****** END GLOBAL******/
 
 /******START HOME******/
@@ -233,12 +243,10 @@ nav a:hover {
 /******START ICONS******/
 /*Icons Hero*/
 .hero-icons {
-	background: #000;
-	color: #fff;
-	background-image: url("../img/bg-hero-icons.jpg");
-	background-size: cover;
-	background-repeat: no-repeat;
-	height: 500px;
-	background-position: center;
+	text-align: center;
+}
+.hero-icons h1 {
+	padding-top: 100px;
+	font-siz: 1.5em;
 }
 /******END ICONS******/
