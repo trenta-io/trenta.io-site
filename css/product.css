@@ -163,7 +163,7 @@ nav a:hover {
 }
 #ft-news {
 	background-color: #f1f1f3;
-	background-image: url("../img/ft-news-jan.jpg");
+	background-image: url("../img/ft-news-oct.png");
 	background-size: cover;
 	background-position: bottom;
 	background-repeat: no-repeat;
@@ -178,7 +178,7 @@ nav a:hover {
 @media (max-width: 767px) {
 	#ft-news {
 	background-color: #f1f1f3;
-	background-image: url("../img/ft-news-jan.jpg");
+	background-image: url("../img/ft-news-oct-m.png");
 	background-size: contain;
 	background-position: bottom;
 	background-repeat: no-repeat;
