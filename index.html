@@ -1,178 +1,365 @@
 <!doctype html>
-<html lang="en"><head>
+<html lang="en">
+
+<head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta property="og:title" content="Trenta.io"/>
-  <meta property="og:description" content="Trenta.io brings great user experiences and competitive design to the open-source desktop."/>
+  <meta property="og:title" content="Trenta.io" />
+  <meta property="og:description"
+    content="Trenta.io brings great user experiences and competitive design to the open-source desktop." />
   <meta property="og:image" content="/img/trentaio-og.jpg" />
   <!-- Search Engines -->
-  <meta name="description" content="Trenta.io brings great user experiences and competitive design to the open-source desktop.">
+  <meta name="description"
+    content="Trenta.io brings great user experiences and competitive design to the open-source desktop.">
   <meta itemprop="name" content="Trenta.io">
-  <meta itemprop="description" content="Trenta.io brings great user experiences and competitive design to the open-source desktop.">
+  <meta itemprop="description"
+    content="Trenta.io brings great user experiences and competitive design to the open-source desktop.">
   <!-- Twitter -->
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Trenta.io">
-  <meta name="twitter:description" content="Trenta.io brings great user experiences and competitive design to the open-source desktop.">
+  <meta name="twitter:description"
+    content="Trenta.io brings great user experiences and competitive design to the open-source desktop.">
   <meta name="twitter:creator" content="@Trentaio">
-  <link rel="icon" 
-      type="image/png" 
-      href="/favicon.png">
+  <link rel="icon" type="image/png" href="/favicon.png">
   <title>Trenta.io</title>
   <!-- Bootstrap core CSS -->
   <link href="css/bootstrap.min.css" rel="stylesheet">
   <!-- Custom styles for this template -->
   <link href="css/product.css" rel="stylesheet">
-  <script data-ad-client="ca-pub-2069796401337560" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+  <script data-ad-client="ca-pub-2069796401337560" async
+    src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+
+  <style>
+    .hero-main {
+      position: relative;
+      overflow: hidden;
+      min-height: 420px;
+
+      width: 100%;
+    }
+
+    .hero-main video {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      object-fit: cover;
+      z-index: 0;
+    }
+
+    .hero-main .herotop {
+      z-index: 1;
+      position: relative;
+      color: #dc0000;
+      padding: 10px;
+      background: rgba(221, 221, 221, 0.15);
+      box-shadow: 0px 4px 6.8px 0px rgba(0, 0, 0, 0.10);
+      backdrop-filter: blur(25px);
+      width: 100%;
+      height: 70px;
+    }
+
+    .hero-main .caption {
+      z-index: 1;
+      position: relative;
+      text-align: center;
+      color: #dc0000;
+      padding: 10px;
+    }
+
+    .tio-round {
+      border-radius: 50px;
+    }
+
+    .headline-main {
+      color: #222529;
+      text-align: center;
+      font-family: 'Roboto', sans-serif;
+      font-size: 40px;
+      font-style: normal;
+      font-weight: 900;
+      line-height: normal;
+    }
+
+    .headline-secondary {
+      color: #222529;
+      text-align: center;
+      font-family: 'Roboto', sans-serif;
+      font-size: 36px;
+      font-style: normal;
+      font-weight: 900;
+      line-height: normal;
+    }
+
+    .headline-category {
+      color: rgba(34, 37, 41, 0.75);
+      text-align: center;
+      font-family: 'Roboto', sans-serif;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+    }
+
+    .tile-text {
+      text-align: left;
+    }
+
+    @media (max-width: 768px) {
+      .headline-main {
+        color: #222529;
+        text-align: center;
+        font-family: 'Roboto', sans-serif;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: normal;
+      }
+
+      .headline-secondary {
+        color: #222529;
+        text-align: center;
+        font-family: 'Roboto', sans-serif;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: normal;
+      }
+
+      .tile-text {
+        text-align: center;
+      }
+
+    }
+  </style>
 </head>
 
 <body>
-<div style="height: 45px; width: 100%; background: black; position: absolute; left: 0; top: 0;"></div>
-<nav class="navbar navbar-expand-lg site-header navbar-dark sticky-top py-1">
-  <a class="navbar-brand d-block d-lg-none mx-auto pl-5" href="/"><img src="img/logo-io-fff.svg" style="height: 15px" alt="Trenta.io"></a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-		<div class="navbar-nav mx-auto">
-		  <a class="navbar-brand d-none d-lg-block" href="/"><img src="img/logo-io-fff.svg" style="height: 15px" alt="Trenta.io"></a>
-      <a class="py-2 px-5 av-item nav-link" href="/">Home</a>
+  <div class="container">
+    <div class="row mt-4">
+      <div class="col-12">
+        <div class="hero-main tio-round">
+          <video src="img/icons-bg-web.mp4" autoplay muted playsinline poster="images/hero-still.jpg"></video>
+          <div class="herotop">
+            <img src="img/logo-io-fff.svg" style="height: 50px; padding: 10px 0 10px 10px;">
+          </div>
+          <div class="caption">
+            <img src="img/logo-io-full.svg" style="height: 30px; margin: 80px 0 20px 0;">
+            <div class="headline-main">Premium desktop<br>
+              experiences</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row mt-5">
+      <div class="col-11 col-md-10 mx-auto">
+        <div class="headline-secondary">
+          Dedicated to those who supported us<br class="d-none d-md-block">
+          & the future of open-source experiences.
+        </div>
+        <p class="text-center mt-3">Trenta.io was an organization focused on creating high-quality desktop experiences
+          for
+          open platforms. Their mission was to bring a clean, modern look to Linux, enabling digital creators to have
+          access to a system that was both visually appealing and non-intrusive for their creative work. A significant
+          focus was placed on design and user experience, with the goal of providing these benefits free of charge to
+          anyone interested in the creative fields</p>
+      </div>
+    </div>
+    <div class="row mt-5">
+      <div class="col-10 col-md-10 mx-auto">
+        <div class="headline-category text-uppercase mt-2">
+          Our DNA
+        </div>
+        <div class="headline-secondary mt-3">
+          Out-of-the-box looks,<br>
+          paired with fun
+        </div>
+      </div>
+    </div>
+    <div class="row mt-5">
+      <div class="col-10 col-md-10 mx-auto">
+        <div class="row">
+          <div class="col-12 mx-auto col-md-4 text-center">
+            <img src="img/logo-os-full.svg" class="w-50 mx-auto mb-4 d-block d-md-none" alt="Trenta OS">
+            <img src="img/tile-os.png" class="img-fluid" alt="Monitor with Trenta OS">
+          </div>
+          <div class="col-12 mx-auto col-md-8 tile-text mt-2">
+            <img src="img/logo-os-full.svg" class="mb-4 d-none d-md-block" style="height: 40px;" alt="Trenta OS">
+            <p>Trenta OS was a visually appealing and user-friendly operating system based on Ubuntu, with a design
+              inspired by macOS. Its development ceased in 2020, but it remains an interesting example of the
+              customization and flexibility possible within the open-source software community.</p>
+          </div>
+        </div>
+      </div>
 
-      <a class="py-2 px-5 av-item nav-link" href="icons.html">Icons</a>
-      <a class="py-2 px-5 av-item nav-link" href="https://medium.com/trentaio" target="_blank">Blog <img src="img/external-white.png" style="width: 12px" alt=""></a>
+    </div>
+    <div class="row mt-5">
+      <div class="col-10 col-md-10 mx-auto">
+        <div class="row">
+          <div class="col-12 mx-auto col-md-4 text-center">
+            <img src="img/logo-icons-full.svg" class="w-50 mx-auto mb-4 d-block d-md-none" alt="Trenta Icons">
+            <img src="img/tile-icons.png" class="img-fluid" alt="Collection of Icons">
+          </div>
+          <div class="col-12 mx-auto col-md-8 tile-text mt-2">
+            <img src="img/logo-icons-full.svg" class="mb-4 d-none d-md-block" style="height: 40px;" alt="Trenta Icons">
+            <p>Trenta Icons, previously known as Rainier UI Icons, is an icon theme developed by Trenta.io. This theme
+              is designed to enhance the Linux desktop experience with a modern, clean, and sleek design, adding a
+              premium polish to the user interface. The icon set is notable for its use of contemporary design standards
+              and its catering to users who appreciate a visually appealing and modern interface.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <div class="row mt-5">
+      <div class="col-10 col-md-10 mx-auto">
+        <div class="row">
+          <div class="col-12 mx-auto col-md-4 text-center">
+            <img src="img/logo-frostlock-full.svg" class="w-50 mx-auto mb-4 d-block d-md-none" alt="frostlock">
+            <img src="img/tile-frostlock.png" class="img-fluid" alt="Photo of a beach with the left half blurred">
+          </div>
+          <div class="col-12 mx-auto col-md-8 tile-text mt-2">
+            <img src="img/logo-frostlock-full.svg" class="mb-4 d-none d-md-block" style="height: 35px;" alt="frostlock">
+            <p>Frostlock was a project developed by Trenta.io. Its primary function was to create a blurred the current
+              wallpaper and replace the login screen’s (GNOME Display Manager) background, This feature was integrated
+              into Trenta OS, specifically to enhance the visual experience by creating familiarity in the interface by
+              applying the user’s wallpaper to the login screen, although blurred.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <div class="row mt-5">
+      <div class="col-10 col-md-10 mx-auto">
+        <div class="row">
+          <div class="col-12 mx-auto col-md-4 text-center">
+            <img src="img/logo-ondemand.png" class="mx-auto mb-4 d-block d-md-none" style="height: 25px" alt="onDemand">
+            <img src="img/tile-ondemand.png" class="img-fluid" alt="Screenshot of onDemand app">
+          </div>
+          <div class="col-12 mx-auto col-md-8 tile-text mt-2">
+            <img src="img/logo-ondemand.png" class="mb-4 d-none d-md-block" style="height: 35px;" alt="onDemand">
+            <p>Trenta onDemand was a proof-of-concept app to watch and rent popular movies using platforms like YouTube
+              and Amazon, depending on your preference. Both US and German markets were supported. It was pre-installed
+              in the last version of Trenta OS.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <div class="row mt-5">
+      <div class="col-10 col-md-10 mx-auto">
+        <div class="row">
+          <div class="col-12 mx-auto col-md-4 text-center">
+            <img src="img/logo-community-full.svg" class="mx-auto mb-4 d-block d-md-none" style="height: 35px"
+              alt="Community Powered">
+            <img src="img/tile-community.png" class="img-fluid" alt="Blueprints showcasing icons">
+          </div>
+          <div class="col-12 mx-auto col-md-8 tile-text mt-2">
+            <img src="img/logo-community-full.svg" class="mb-4 d-none d-md-block" style="height: 40px;" alt="Community Powered">
+            <p>TTrenta.io was open source and community grown on GitHub. If, for example, Trenta Icons didn’t have a
+              specific icon for an app, you could reference our documentation and contribute it. The design guidelines
+              for Trenta Icons covered several types of icons, including round, rectangular, and status icons. These
+              guidelines ensure a consistent and visually appealing design language across Trenta OS and its icons.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <div class="row mt-5 mb-5">
+      <div class="col-10 col-md-10 mx-auto">
+        <div class="headline-category text-uppercase mt-5">
+          Our Maintainers
+        </div>
+        <div class="headline-secondary mt-3">
+          Simple ideas,<br>
+          achieved as a community
+        </div>
+        <p class="text-center mt-3">The creators of Trenta.io are Kenny and Kevin. Kenny was the head of
+          technology and as a co-founder of Trenta.io, served a significant role in the establishment and ongoing
+          support of Trenta.io. Kevin was is a co-founder and was head of design at Trenta.io​​. Together, they
+          were committed to bringing innovative solutions to the Linux desktop landscape​.
+          Although they have both moved on to other endeavors, they still appreciate their time at Trenta.io
+        </p>
+
+        <div class="row text-center mb-5">
+          <div class="col-12 col-md-3 offset-md-3 mt-2">
+            <strong>Kenny S.</strong>
+            <br>
+            <a href="https://kstr.us">kstr.us</a>
+          </div>
+          <div class="col-12 col-md-3 mt-2">
+            <strong>Kevin D.</strong>
+            <br>
+            <a href="https://kevdoy.com">kevdoy.com</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row mt-5 mb-5">
+      <div class="col-11 col-md-10 mx-auto">
+        <div class="headline-category text-uppercase mb-5">
+          Thank you to all those who supported Trenta.io
+        </div>
+      </div>
     </div>
   </div>
-</nav>
 
-<div class="container-fluid">
-<div class="row" id="">
-<div class="col-12 feature-hero">
 
-<h1><img src="img/logo-os-full.svg" style="width: 150px" class="mx-auto mb-2" alt="Trenta OS"><br>Shared vision, by our friends &amp; more.</h1>
-<p>	<a href="alternatives.html">Our Recommendations &#8250;</a><br><br>
-	
-	
-</div>
-	</div>
+  <div class="bg-light">
+    <footer class="container py-5">
+      <div class="row">
+        <div class="col-12 col-md mb-4">
+          <img src="img/logo-io.svg" style="height: 12px;; vertical-align: middle;"
+            class="d-block my-2 d-inline float-left" alt="Trenta.io">
+          <p class="align-content-center">&nbsp;| Trenta.io</p>
+          <small class="text-muted">&copy; 2014 – 2022</small>
+          <br>
+        </div>
+        <div class="col-6 col-md">
+          <h5>Links</h5>
+          <ul class="list-unstyled text-small">
 
-	</div>
-	
-	<div class="container">
-	<div class="row section mb-4">
-<div class="col-12 col-md-6 mt-4">
-	<div class="feature" id="ft-icons">
-		<h2>Trenta Icons</h2>
-	<p>Your desktop and your eyes will thank you.</p>
-		<br>
-	<a href="icons.html">Learn More &#8250;</a>
-		</div></div>
-<div class="col-12 col-md-6 mt-4">
-	<div class="feature" id="ft-news">
-		<h2>Trenta onDemand</h2><br>
-		<a href="https://medium.com/trentaio/august-2020-update-good-change-1317a3d198ca" target="_blank">View Concept &#8250;</a>
-		</div>
-	</div>
 
-<!-- <div class="col-12 col-md-12 mt-4">
 
-	<div class="feature feature-long" id="ft-news">
-		<h2>Trenta onDemand</h2>
-<a href="https://medium.com/trentaio/august-2020-update-good-change-1317a3d198ca" target="_blank">First Look &#8250;</a>
-		</div>
+            <li>
+              <a class="text-muted" href="https://medium.com/trentaio" target="_blank">Blog <img src="img/external.png"
+                  style="width: 12px" alt=""></a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-6 col-md">
+          <h5>Resources</h5>
+          <ul class="list-unstyled text-small">
+            <li>
+              <a class="text-muted" href="https://github.com/trenta-io" target="_blank">GitHub <img
+                  src="img/external.png" style="width: 12px" alt=""></a>
+            </li>
+            <li>
+              <a class="text-muted" href="privacy.html">Privacy</a>
+            </li>
 
-	</div> -->
+          </ul>
+        </div>
+        <div class="col-6 col-md">
+          <h5>Connect</h5>
+          <ul class="list-unstyled text-small">
+            <li>
+              <a class="text-muted" href="https://instagram.com/trenta.io" target="_blank">Instagram <img
+                  src="img/external.png" style="width: 12px" alt=""></a>
+            </li>
+            <li>
+              <a class="text-muted" href="https://twitter.com/trentaio" target="_blank">Twitter <img
+                  src="img/external.png" style="width: 12px" alt=""></a>
+            </li>
 
-		</div></div>
-		<!--<div class="container-fluid">
-	<div class="container">
-<div class="row section">
-<div class="col-12">
-<h3 class="mb-4">Latest News</h3>
-	</div>
-	<div class="col-10 offset-1 offset-md-0 col-md-4 blogpost">
-	<a href="https://medium.com/trentaio/october-2019-update-the-elephant-84b567afac44">
-		<img src="blog/blog-1019.jpg" class="img-fluid rounded" alt="">
-		<h5>October 2019 Update</h5>
-		<p>The Elephant</p>
-	</a>
-	</div>
-	<div class="col-10 offset-1 offset-md-0 col-md-4 blogpost">
-	<a href="https://medium.com/trentaio/april-2019-update-arch-support-dc9608695083">
-		<img src="blog/blog-0419.jpg" class="img-fluid rounded" alt="">
-		<h5>April 2019 Update</h5>
-		<p>Arch Support</p>
-	</a>
-	</div>
-	<div class="col-10 offset-1 offset-md-0 col-md-4 blogpost">
-	<a href="https://medium.com/trentaio/january-2019-update-gathering-ingredients-48e42bbfde23">
-		<img src="blog/blog-0119.jpg" class="img-fluid rounded" alt="">
-		<h5>January 2019 Update</h5>
-		<p>Gathering Ingredients</p>
-	</a>
-	</div>
-</div>
-	
-	</div>
-	</div>-->
+            <li>
+              <a class="text-muted" href="https://www.youtube.com/@trentaio" target="_blank">YouTube <img
+                  src="img/external.png" style="width: 12px" alt=""></a>
+            </li>
 
-<div class="bg-light">
-  <footer class="container py-5">
-    <div class="row">
-      <div class="col-12 col-md mb-4">
-                <img src="img/logo-io.svg" style="height: 12px;; vertical-align: middle;" class="d-block my-2 d-inline float-left" alt="Trenta.io"> <p class="align-content-center">&nbsp;| Trenta.io</p>
-        <small class="text-muted">&copy; 2014 – 2022</small>
-		  <br>
-      </div>
-      <div class="col-6 col-md">
-        <h5>Links</h5>
-        <ul class="list-unstyled text-small">
-          
-          <li>
-            <a class="text-muted" href="icons.html">Trenta Icons</a>
-          </li>
-
-			
-			 <li>
-            <a class="text-muted" href="https://medium.com/trentaio" target="_blank">Blog <img src="img/external.png" style="width: 12px" alt=""></a>
-          </li>
-        </ul>
-      </div>
-      <div class="col-6 col-md">
-        <h5>Resources</h5>
-        <ul class="list-unstyled text-small">
-          <li>
-            <a class="text-muted" href="https://github.com/trenta-io" target="_blank">GitHub <img src="img/external.png" style="width: 12px" alt=""></a>
-          </li>
-          <li>
-            <a class="text-muted" href="brand.html">Brand &amp; Style Guide</a>
-          </li>
-          <li>
-            <a class="text-muted" href="privacy.html">Privacy</a>
-          </li>
-          
-        </ul>
-      </div>
-      <div class="col-6 col-md">
-        <h5>Connect</h5>
-        <ul class="list-unstyled text-small">
-          <li>
-            <a class="text-muted" href="https://instagram.com/trenta.io" target="_blank">Instagram <img src="img/external.png" style="width: 12px" alt=""></a>
-          </li>
-          <li>
-            <a class="text-muted" href="https://twitter.com/trentaio" target="_blank">Twitter <img src="img/external.png" style="width: 12px" alt=""></a>
-          </li>
-          <li>
-            <a class="text-muted" href="https://facebook.com/trenta.io" target="_blank">Facebook <img src="img/external.png" style="width: 12px" alt=""></a>
-          </li>
-          <li>
-            <a class="text-muted" href="https://reddit.com/r/trentaos" target="_blank">Reddit <img src="img/external.png" style="width: 12px" alt=""></a>
-          </li>
-          <li>
-            <a class="text-muted" href="https://t.me/trentaio" target="_blank">Telegram <img src="img/external.png" style="width: 12px" alt=""></a>
-          </li>
-         
-        </ul>
-      </div>
-      <!-- <div class="col-6 col-md">
+          </ul>
+        </div>
+        <!-- <div class="col-6 col-md">
         <h5>About</h5>
         <ul class="list-unstyled text-small">
           <li>
@@ -189,13 +376,14 @@
           </li>
         </ul>
       </div> -->
-    </div>
-  </footer>
-</div>
+      </div>
+    </footer>
+  </div>
   <!-- Bootstrap core JavaScript
     ================================================== -->
   <!-- Placed at the end of the document so the pages load faster -->
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
     crossorigin="anonymous"></script>
   <script src="/js/bootstrap.min.js"></script>
   <script>
@@ -205,16 +393,18 @@
       text: 'Thumbnail'
     });
   </script>
-	 <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  <script>
+    (function (i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date(); a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
 
-  ga('create', 'UA-55280308-1', 'auto');
-  ga('send', 'pageview');
+    ga('create', 'UA-55280308-1', 'auto');
+    ga('send', 'pageview');
 
-</script>
+  </script>
 </body>
 
 </html>
