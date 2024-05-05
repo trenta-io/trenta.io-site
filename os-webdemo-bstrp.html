@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta property="og:title" content="Trenta.io" />
+  <meta property="og:description"
+    content="Trenta.io brings great user experiences and competitive design to the open-source desktop." />
+  <meta property="og:image" content="/img/trentaio-og.jpg" />
+  <!-- Search Engines -->
+  <meta name="description"
+    content="Trenta.io brings great user experiences and competitive design to the open-source desktop.">
+  <meta itemprop="name" content="Trenta.io">
+  <meta itemprop="description"
+    content="Trenta.io brings great user experiences and competitive design to the open-source desktop.">
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Trenta.io">
+  <meta name="twitter:description"
+    content="Trenta.io brings great user experiences and competitive design to the open-source desktop.">
+  <meta name="twitter:creator" content="@Trentaio">
+  <link rel="icon" type="image/png" href="/favicon.png">
+  <title>Trenta.io | Trenta OS UI Web Demo</title>
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom styles for this template -->
+  <link href="css/product.css" rel="stylesheet">
+  <script data-ad-client="ca-pub-2069796401337560" async
+    src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+<style>
+      body {
+            background-color: #000;
+            width: 100%;
+            height: 100%;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            color: #fff;
+        }
+
+        iframe {
+            box-shadow: 0 10px 100px 0 rgba(255, 255, 255, 0.15);
+            border: 3px solid rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+        }
+        
+ /* App Windows */
+ .blank-window {
+    margin-top: 50px;
+     position: absolute;
+     background: white;
+     width: 95%;
+     height: auto;
+     padding-bottom: 50px;
+     border-radius: 8px;
+     overflow: hidden;
+     box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.4);
+     color: #000;
+ }
+
+ .window-navigation {
+     text-align: center;
+     padding: 5px 0;
+ }
+
+ .window-buttons {
+     display: inline-block;
+     float: left;
+     margin-left: 10px;
+ }
+
+ .window-buttons div {
+     width: 14px;
+     height: 14px;
+     border-radius: 100%;
+     display: inline-block;
+
+ }
+
+ .window-button-close {
+     background: rgb(237, 106, 94);
+     margin-right: 5px;
+
+ }
+
+ .window-button-min {
+     background: yellow;
+     background: rgb(243, 190, 80);
+     margin-right: 5px;
+ }
+
+ .window-button-max {
+     background: rgb(97, 196, 84);
+ }
+
+ .window-button-close:hover, .window-button-min:hover, .window-button-max:hover {
+    opacity: 0.5;
+    transition: 0.2s;
+ }
+
+ .window-title {
+     font-family: 'Roboto', Arial, Helvetica, sans-serif;
+     font-size: 14px;
+     display: inline-block;
+ }
+
+.fullscreen-link {
+    margin-top: -30px;
+    margin-left: -5px;
+    opacity: 0.5;
+}
+.fullscreen-link:hover {
+    opacity: 1;
+}
+ </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="row text-center">
+        <div class="col-11 mt-5 mx-auto">
+            <h2><img src="img/logo-os-full-web-demo.svg" class="img-fluid" style="max-width: 400px;" onclick=""></h2>
+        </div>
+        <iframe src="https://elavo.io" width="1200" height="700px" style="margin-top: 30px;" class="d-none d-lg-block" allow="fullscreen"></iframe>
+        <div class="w-100 text-right fullscreen-link">
+        <a href="#" id="toggle_fullscreen"><img src="img/fullscreen.svg" width="25" alt="full screen"></a>
+    </div>
+    </div>
+    <div class="row d-lg-none">
+        <div class="col-11 mx-auto">
+            <div class="blank-window" id="appBlank10">
+                <div class="window-navigation">
+                    <div class="window-buttons">
+                        <div class="window-button-close"></div>
+                        <div class="window-button-min"></div>
+                        <div class="window-button-max"></div>
+    
+             
+                    </div>
+                    <div class="window-title">
+                       
+                    </div>
+                </div>
+                <div class="window-content" style="padding: 0 15px">
+                    <h3 class="mt-5">Incompatible</h3> 
+                <br> This experience is not available on your browser or device. 
+                <br>
+                <small>Please try again on a desktop or laptop computer.</small>
+                </div>
+           </div>
+        </div>
+    </div>
+  </div>
+
+
+  
+  <!-- Bootstrap core JavaScript
+    ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="/js/bootstrap.min.js"></script>
+  <script>
+    Holder.addTheme('thumb', {
+      bg: '#55595c',
+      fg: '#eceeef',
+      text: 'Thumbnail'
+    });
+  </script>
+  <script>
+    (function (i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date(); a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-55280308-1', 'auto');
+    ga('send', 'pageview');
+
+  </script>
+
+  <script>
+    $('#toggle_fullscreen').on('click', function(){
+  // if already full screen; exit
+  // else go fullscreen
+  if (document.fullscreenElement) {
+    document.exitFullscreen();
+  } else {
+    $('iframe').get(0).requestFullscreen();
+  }
+});
+  </script>
+</body>
+
+</html>
