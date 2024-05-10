@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>🔥 Make a photo booth app in about 15 lines of JavaScript</title>
+  <link rel="icon" href="https://fav.farm/🎥" />
+</head>
+
+<body>
+  <video playsinline muted autoplay id="smileBooth-video"></video>
+  <button id="smilBooth-capture">Take photo</button>
+  
+
+  <script type="module">
+    const vid = document.getElementById('smileBooth-video');
+    const canvas = document.querySelector('canvas');
+    const ctx = canvas.getContext('2d');
+
+    vid.srcObject = await navigator.mediaDevices.getUserMedia({ video: true });
+
+    function takeaPic() {
+      [canvas.width, canvas.height] = [vid.videoWidth, vid.videoHeight];
+      ctx.drawImage(vid, 0, 0, canvas.width, canvas.height);
+      const image = document.createElement('img');
+      image.src = canvas.toDataURL('image/jpg');
+      image.style = `--rotate: ${Math.random() * 360}deg; --x:${Math.random() * 100}%; --y:${Math.random() * 100}%;`;
+      image.className = 'smileBooth-photo';
+     document.getElementById("smileBooth-photos").prepend(image);
+    }
+    document.getElementById("smilBooth-capture").addEventListener('click', takeaPic);
+  </script>
+<div id="smileBooth-photos" style="background: blue; z-index: 5000; height: 200px; width: auto; overflow: hidden;">
+Work in progress
+<canvas></canvas>
+</div>
+  <style>
+    canvas {
+      display: none;
+    }
+
+    #smileBooth-video {
+      position: relative;
+      width: 100%;
+      transform: rotateY(180deg);
+    -webkit-transform:rotateY(180deg); /* Safari and Chrome */
+    -moz-transform:rotateY(180deg); /* Firefox */
+    }
+
+    .smileBooth-photo {
+      /* position: absolute; 
+      top: var(--y);
+      left: var(--x);
+      rotate: var(--rotate);
+      transform: translate(-100%, -100%);
+      */
+      width: 200px;
+      border: 10px solid white;
+      border-bottom-width: 20px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    }
+
+    .smileBooth-photo[src="data:,"] {
+      display: none;
+    }
+
+  </style>
+</body>
+
+</html>

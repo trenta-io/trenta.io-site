@@ -1,0 +1,211 @@
+ body {
+     padding: 0;
+     margin: 0;
+     height: 100%;
+     width: 100%;
+     overflow: hidden;
+     font-family: "Roboto", Arial, Helvetica, sans-serif;
+ }
+
+
+ /* Panel and Dock Theme */
+ .top-panel,
+ .dock {
+     background: rgba(198, 198, 198, 0.5);
+     backdrop-filter: blur(20px);
+     -webkit-backdrop-filter: blur(20px);
+
+ }
+
+ /* Wallpaper */
+ body,
+ .app-picker-container {
+     background: url(/theme/trenta/wallpaper/zion1-by-daniel-olah.jpg) no-repeat center center fixed;
+     -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     background-size: cover;
+ }
+
+ /* Desktop Canvas */
+ .desktop {
+     z-index: 0;
+     height: 100%;
+     width: 100%;
+     /* height: calc(130% - 35px);
+     width: 135%; */
+     margin: 0;
+     padding: 0;
+ }
+
+ /* Top Panel */
+ .top-panel {
+     z-index: 2;
+     height: 35px;
+     width: 100%;
+     left: 0;
+     top: 0;
+     box-shadow: 0px 4px 6.8px 0px rgba(0, 0, 0, 0.10);
+ }
+
+ #top-panel-center {
+     padding-top: 9px;
+     width: 20%;
+     left: 50%;
+     transform: translateX(-50%);
+     top: 0;
+     position: absolute;
+     text-align: center;
+     display: inline-block;
+     z-index: 1;
+ }
+
+ .statusicon {
+     z-index: 500;
+     height: 20px;
+     margin: 7px 0 0 5px;
+ }
+
+ /* Dock */
+ .dock {
+     background: rgba(198, 198, 198, 0.2);
+     position: absolute;
+     z-index: 930002;
+     height: 50px;
+     bottom: 0;
+     margin-bottom: 5px;
+     bottom: 0;
+     left: 50%;
+     padding: 8px 4px;
+     border-radius: 15px;
+     transform: translateX(-50%);
+     text-align: center;
+     border: solid 1px rgba(255, 255, 255, 0.1);
+     box-shadow: 0px 8px 20px 5px rgba(0, 0, 0, 0.1);
+ }
+
+ .dock .dock-item {
+     margin: 0 4px;
+     display: inline-block;
+ }
+
+ /* App Drawer/Picker */
+ .app-picker-container {
+     /* display: none; */
+     position: absolute;
+     width: 100%;
+     height: 100%;
+     z-index: 92000;
+     top: 0;
+     left: 0;
+ }
+
+ .app-picker {
+     position: absolute;
+     width: calc(100% - 100px);
+     height: calc(100% - 100px);
+     background: rgba(0, 0, 0, 0.6);
+     backdrop-filter: blur(50px);
+     -webkit-backdrop-filter: blur(50px);
+     padding: 50px 100px 100px 100px;
+     z-index: 930000;
+     text-align: left;
+     color: #fff;
+ }
+.app-picker-search {
+    background: rgba(255, 255, 255, 0.2);
+    color: rgba(255, 255, 255, 0.5);
+    width: 300px;
+    margin: 0 auto;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 10px;
+    border-radius: 2px;
+    margin-bottom: 60px;
+}
+ .app-picker-app {
+     width: 100px;
+     text-align: center;
+     display: inline-block;
+     margin: 10px 40px;
+ }
+
+ .app-picker-app img {
+     width: 100%;
+     margin-bottom: 10px;
+ }
+
+ /* App Windows */
+ .blank-window {
+     position: absolute;
+     margin-top: 400px;
+     margin-left: 200px;
+     background: white;
+     width: 800px;
+     height: 600px;
+     border-radius: 4px;
+     overflow: hidden;
+     box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.4);
+ }
+
+ .window-navigation {
+     text-align: center;
+     padding: 5px 0;
+     background: #dfdfe2;
+     min-height: 26px;
+ }
+ .window-navigation-dark {
+    text-align: center;
+    padding: 5px 0;
+    background: #32353f;
+    min-height: 26px;
+    color: #aeb7af;
+}
+ .window-buttons {
+     display: inline-block;
+     float: left;
+     margin-left: 12px;
+     padding: 6px 0;
+ }
+
+ .window-buttons div {
+     width: 10px;
+     height: 10px;
+     border-radius: 100%;
+     display: inline-block;
+
+ }
+
+ .window-button-close {
+     background: #ed6b5f;
+     border: 1px solid #ce5349;
+     margin-right: 8px;
+
+ }
+
+ .window-button-min {
+     background: #f5bb4c;
+     border: 1px solid #d7a74f;
+     margin-right: 8px;
+ }
+
+ .window-button-max {
+     background: #60c550;
+     border: 1px solid #5aac52;
+ }
+
+ .window-button-close:hover,
+ .window-button-min:hover,
+ .window-button-max:hover {
+     opacity: 0.8;
+     transition: 0.1s;
+ }
+
+ .window-title {
+     font-family: 'Roboto', Arial, Helvetica, sans-serif;
+     font-size: 14px;
+     display: inline-block;
+     padding: 6px 0;
+     margin-left: -50px;
+ }
+
+ /*   */

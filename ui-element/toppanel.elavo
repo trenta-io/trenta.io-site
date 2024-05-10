@@ -1,0 +1,19 @@
+<div>
+    <img src="/theme/trenta/icons/status/scalable/view-grid-symbolic.svg" id="appsIcon" class="statusIcon"
+        onclick="$('#app-picker').fadeIn(200);">
+</div>
+
+<div id="top-panel-center">
+    <script>
+        const days = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+        const d = new Date();
+        let day = days[d.getDay()];
+        document.getElementById("top-panel-center").innerHTML = day + ", " + d.getHours() + ":" + d.getMinutes();;
+    </script>
+</div>
+
+<div class="top-panel-notif" style="right: 0; top: 0; position: absolute; margin-right: 10px;">
+    <img src="/theme/trenta/icons/status/scalable/audio-volume-high-symbolic.svg" class="statusIcon" style="margin-right: 10px;">
+    <img src="/theme/trenta/icons/status/scalable/battery-level-100-charged-symbolic.svg" class="statusIcon" style="margin-right: 10px;">
+    <img src="/theme/trenta/icons/status/scalable/edit-find-symbolic.svg" class="statusIcon" style="margin-right: 5px;">
+</div>

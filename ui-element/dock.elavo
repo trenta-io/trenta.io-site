@@ -1,0 +1,21 @@
+<div class="dock-item">
+            <img onclick="$('#desktop').append($('<div>').load('/app/files.elavoapp'));" src="/theme/trenta/icons/scalable/org.gnome.Nautilus.svg" style="height: 100%">
+        </div>
+        <div class="dock-item">
+            <img onclick="$('#desktop').append($('<div>').load('/app/web.elavoapp'));" src="/theme/trenta/icons/scalable/org.gnome.Epiphany.svg" style="height: 100%">
+        </div>
+        <div class="dock-item">
+            <img onclick="$('#desktop').append($('<div>').load('/app/calendar.elavoapp'));" src="/theme/trenta/icons/scalable/org.gnome.Calendar.svg" style="height: 100%">
+        </div>
+        <div class="dock-item">
+            <img onclick="$('#desktop').append($('<div>').load('/app/calculator.elavoapp'));" src="/theme/trenta/icons/scalable/org.gnome.Calculator.svg" style="height: 100%">
+        </div>
+        <div class="dock-item">
+            <img onclick="$('#desktop').append($('<div>').load('/app/settings.elavoapp'));" src="/theme/trenta/icons/scalable/org.gnome.Settings.svg" style="height: 100%">
+        </div>
+        <div class="dock-item">
+            <img onclick="$('#desktop').append($('<div>').load('/app/trash.elavoapp'));" src="/theme/trenta/icons/places/256/user-trash.svg" style="height: 100%">
+        </div>
+
+
+        

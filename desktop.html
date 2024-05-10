@@ -1,0 +1,47 @@
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="manifest" href="elavo.webmanifest">
+    <title>Trenta OS - Desktop</title>
+    <script language="javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script language="javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.7.2/jquery-ui.js"></script>
+    <div id="window" style="display: none;"></div>
+    <link rel="stylesheet" href="/style/os.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+</head>
+<body>
+    <div id="app-picker" class="app-picker-container">
+        <div class="app-picker">
+        </div>
+    </div>
+    <div class="top-panel" id="top-panel">
+    </div>
+    <div class="dock" id="dock">
+    </div>
+    <div class="desktop" id="desktop">
+    </div>
+
+    <!-- Load Elements -->
+    <script>
+        // Import Dock Items
+        $('#dock').load('/ui-element/dock.elavo')
+        // Import Top Panel Items
+        $('#top-panel').load('/ui-element/toppanel.elavo');
+        // Import Apps shown in App Picker
+        $('.app-picker').append($('<div>').load('/ui-element/app-picker-apps.elavo'));
+        // Load Trenta OS Demo Welcome Center
+        $('#desktop').append($('<div>').load('/app/welcome.elavoapp'));
+    </script>
+
+    <!-- App Picker/Drawer -->
+    <script src="/scripts/app-picker.js"></script>
+
+    <!-- Window UI Drag -->
+    <script src="/scripts/windowUI.js"></script>
+
+</body>
+
+</html>

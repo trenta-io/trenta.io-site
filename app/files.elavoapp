@@ -1,0 +1,21 @@
+<div class="blank-window" id="appHome" style="width: 650px; height: 420px;">
+            <div class="window-navigation">
+                <div class="window-buttons">
+                    <div class="window-button-close" onclick="$('#appHome').remove();"></div>
+                    <div class="window-button-min"></div>
+                    <div class="window-button-max"></div>
+
+         
+                </div>
+                <div style="text-align: left;">
+                    <img src="/app-data/nautilus/window-nav-home.jpg" height="25" style="padding-left: 10px; padding-top: 2px; padding-bottom: 4px;">
+                    <img src="/app-data/nautilus/window-nav-right.jpg" height="25" style="padding-left: 10px; padding-top: 2px; padding-bottom: 4px; float: right;">
+                </div>
+                <div class="window-title" style="padding: 0;">
+                     
+                </div>
+            </div>
+            <div class="window-content" style="">
+                <img src="/app-data/nautilus/home-app.jpg" style="width: 100%;">
+            </div>
+       </div>

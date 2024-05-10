@@ -1,0 +1,17 @@
+<div class="blank-window" id="appSettings" style="left: -172px; top: -368px; height: 525px;">
+            <div class="window-navigation">
+                <div class="window-buttons">
+                    <div class="window-button-close" onclick="$('#appSettings').remove();"></div>
+                    <div class="window-button-min"></div>
+                    <div class="window-button-max"></div>
+
+         
+                </div>
+                <div class="window-title">
+                    System Settings
+                </div>
+            </div>
+            <div class="window-content">
+                <img src="/app-data/settings/settings-about-app.jpg" style="width: 100%;">
+            </div>
+       </div>

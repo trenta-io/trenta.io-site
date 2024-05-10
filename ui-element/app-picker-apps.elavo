@@ -1,0 +1,79 @@
+<div class="app-picker-search">
+Type to search...
+</div>
+
+<div class="app-picker-app">
+    <img src="/theme/trenta/icons/scalable/org.gnome.Calculator.svg"
+        onclick="$('#desktop').append($('<div>').load('app/calculator.elavoapp'));">
+    Calculator
+</div>
+<div class="app-picker-app">
+    <img src="/theme/trenta/icons/scalable/org.gnome.Calendar.svg"
+        onclick="$('#desktop').append($('<div>').load('app/calendar.elavoapp'));">
+    Calendar
+</div>
+<div class="app-picker-app">
+    <img src="/theme/trenta/icons/scalable/empathy.svg"
+        onclick="$('#desktop').append($('<div>').load('app/blank.elavoapp'));">
+    Chats
+</div>
+<div class="app-picker-app">
+    <img src="/theme/trenta/icons/scalable/org.gnome.Nautilus.svg"
+        onclick="$('#desktop').append($('<div>').load('app/files.elavoapp'));">
+    Files
+</div>
+<div class="app-picker-app">
+    <img src="/theme/trenta/icons/scalable/trenta-ondemand.svg"
+        onclick="$('#desktop').append($('<div>').load('app/ondemand2.elavoapp'));">
+    onDemand
+</div>
+<div class="app-picker-app">
+    <img src="/theme/trenta/icons/scalable/org.gnome.Maps.svg"
+        onclick="$('#desktop').append($('<div>').load('app/maps.elavoapp'));">
+    Maps
+</div>
+<div class="app-picker-app">
+    <img src="/theme/trenta/icons/scalable/org.gnome.Music.svg"
+        onclick="$('#desktop').append($('<div>').load('app/music.elavoapp'));">
+    Music
+</div>
+<div class="app-picker-app">
+    <img src="/theme/trenta/icons/scalable/shotwell.svg"
+        onclick="$('#desktop').append($('<div>').load('app/blank.elavoapp'));">
+    Photos
+</div>
+<div class="app-picker-app">
+    <img src="/theme/trenta/icons/scalable/org.gnome.Terminal.svg"
+        onclick="$('#desktop').append($('<div>').load('app/terminal.elavoapp'));">
+    Terminal
+</div>
+<div class="app-picker-app">
+    <img src="/theme/trenta/icons/scalable/org.gnome.bijiben.svg"
+        onclick="$('#desktop').append($('<div>').load('app/blank.elavoapp'));">
+    Text Editor
+</div>
+<div class="app-picker-app">
+    <img src="/theme/trenta/icons/scalable/org.gnome.Settings.svg"
+        onclick="$('#desktop').append($('<div>').load('app/settings.elavoapp'));">
+    Settings
+</div>
+<div class="app-picker-app">
+    <img src="/theme/trenta/icons/scalable/org.gnome.Cheese.svg"
+        onclick="$('#desktop').append($('<div>').load('app/smilebooth2.elavoapp'));">
+    Smile Booth
+</div>
+<div class="app-picker-app">
+    <img src="/theme/trenta/icons/scalable/org.gnome.Software.svg"
+        onclick="$('#desktop').append($('<div>').load('app/blank.elavoapp'));">
+    Software
+</div>
+<div class="app-picker-app">
+    <img src="/theme/trenta/icons/scalable/org.gnome.Epiphany.svg"
+        onclick="$('#desktop').append($('<div>').load('app/web.elavoapp'));">
+    Web
+</div>
+<div class="app-picker-app">
+    <img src="/theme/trenta/icons/scalable/org.gnome.Yelp.svg"
+        onclick="$('#desktop').append($('<div>').load('app/welcome.elavoapp'));">
+    Welcome
+</div>

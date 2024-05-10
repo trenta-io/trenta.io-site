@@ -1,0 +1,20 @@
+<div class="blank-window" id="appWelcome" style="width: 550px; height: 400px; left: 139px; top: -282px;">
+            <div class="window-navigation">
+                <div class="window-buttons">
+                    <div class="window-button-close" onclick="$('#appWelcome').remove();"></div>
+                    <div class="window-button-min"></div>
+                    <div class="window-button-max"></div>
+
+         
+                </div>
+                <div class="window-title">
+                    Welcome
+                </div>
+            </div>
+            <div class="window-content" style="padding: 20px">
+                <h3>Welcome to the interactive tour of Trenta OS's UI</h3> 
+                <br> Please note that this is NOT the full Trenta OS experience, and merely serves as a way to test the user interface from any web browser.
+                <br><br>
+                <small>If you've come across this and are seeing this message, you've found this web experience before it has been finished. Feel free to look around but expect to encounter bugs.</small>
+            </div>
+       </div>

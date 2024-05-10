@@ -1,0 +1,17 @@
+<div class="blank-window" id="appBlank10" style="left: -172px; top: -368px;">
+            <div class="window-navigation">
+                <div class="window-buttons">
+                    <div class="window-button-close" onclick="$('#appBlank10').remove();"></div>
+                    <div class="window-button-min"></div>
+                    <div class="window-button-max"></div>
+
+         
+                </div>
+                <div class="window-title">
+                    App Name
+                </div>
+            </div>
+            <div class="window-content">
+                [[ Content ]]
+            </div>
+       </div>

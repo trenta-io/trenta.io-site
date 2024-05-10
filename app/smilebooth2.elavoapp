@@ -1,0 +1,17 @@
+<div class="blank-window" id="appSmilebooth" style="left: -172px; top: -368px; width: 600px; height: 400px;">
+            <div class="window-navigation-dark">
+                <div class="window-buttons">
+                    <div class="window-button-close" onclick="$('#appSmilebooth').remove();"></div>
+                    <div class="window-button-min"></div>
+                    <div class="window-button-max"></div>
+
+         
+                </div>
+                <div class="window-title">
+                   Take a Photo
+                </div>
+            </div>
+            <div class="window-content">
+                <img src="/app-data/smilebooth/smilebooth-app.jpg" style="width: 100%;">
+            </div>
+       </div>
