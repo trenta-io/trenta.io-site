@@ -1,0 +1,17 @@
+<div class="blank-window" id="appText" style="left: -172px; top: -368px; width: 650px; height: 450px;">
+            <div class="window-navigation">
+                <div class="window-buttons">
+                    <div class="window-button-close" onclick="$('#appText').remove();"></div>
+                    <div class="window-button-min"></div>
+                    <div class="window-button-max"></div>
+
+         
+                </div>
+                <div class="window-title">
+                    Text Editor
+                </div>
+            </div>
+            <div class="window-content">
+                <img src="/app-data/texteditor/texteditor-app.jpg" style="width: 100%;">
+            </div>
+       </div>

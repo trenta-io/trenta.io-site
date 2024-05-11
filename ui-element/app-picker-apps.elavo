@@ -14,7 +14,7 @@ Type to search...
 </div>
 <div class="app-picker-app">
     <img src="/theme/trenta/icons/scalable/empathy.svg"
-        onclick="$('#desktop').append($('<div>').load('app/blank.elavoapp'));">
+        onclick="$('#desktop').append($('<div>').load('app/chat.elavoapp'));">
     Chats
 </div>
 <div class="app-picker-app">
@@ -39,7 +39,7 @@ Type to search...
 </div>
 <div class="app-picker-app">
     <img src="/theme/trenta/icons/scalable/shotwell.svg"
-        onclick="$('#desktop').append($('<div>').load('app/blank.elavoapp'));">
+        onclick="$('#desktop').append($('<div>').load('app/Photos.elavoapp'));">
     Photos
 </div>
 <div class="app-picker-app">
@@ -49,7 +49,7 @@ Type to search...
 </div>
 <div class="app-picker-app">
     <img src="/theme/trenta/icons/scalable/org.gnome.bijiben.svg"
-        onclick="$('#desktop').append($('<div>').load('app/blank.elavoapp'));">
+        onclick="$('#desktop').append($('<div>').load('app/texteditor.elavoapp'));">
     Text Editor
 </div>
 <div class="app-picker-app">
@@ -64,7 +64,7 @@ Type to search...
 </div>
 <div class="app-picker-app">
     <img src="/theme/trenta/icons/scalable/org.gnome.Software.svg"
-        onclick="$('#desktop').append($('<div>').load('app/blank.elavoapp'));">
+        onclick="$('#desktop').append($('<div>').load('app/softwarecenter.elavoapp'));">
     Software
 </div>
 <div class="app-picker-app">
