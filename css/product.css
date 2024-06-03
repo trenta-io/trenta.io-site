@@ -254,3 +254,11 @@ nav a:hover {
 	font-siz: 1.5em;
 }
 /******END ICONS******/
+
+
+.otherProjects {
+	opacity: 1;
+}
+.otherProjects:hover {
+	opacity: 0.8;
+}
